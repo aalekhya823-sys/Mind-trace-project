@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mind Trace</title>
+</head>
+
+<body>
+
+<h1>Mind Trace Project</h1>
+
+<form action="/predict" method="post">
+
+Sleep Hours:
+<input type="number" name="sleep"><br><br>
+
+Work Hours:
+<input type="number" name="work"><br><br>
+
+Stress Level (1-10):
+<input type="number" name="stress"><br><br>
+
+Social Interaction:
+<input type="number" name="social"><br><br>
+
+<button type="submit">Predict Mind State</button>
+
+</form>
+
+<h2>{{ result }}</h2>
+
+</body>
+
+</html>
